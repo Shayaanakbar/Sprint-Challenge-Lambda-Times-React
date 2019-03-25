@@ -5,12 +5,16 @@ import styled from 'styled-components';
 // You can find the corresponding CSS in the CSS/index.css file
 
 const HeaderStyles = styled.div`
-    // display: flex;
-    // justify-content: space-between;
-    // align-items: center;
-    // flex-direction: row;
-    // background-color: #fff;
-    // border-bottom: 1px solid lightblack;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fff;
+    border-bottom: 1px solid lightblack;
+    width: 100%;
+    height: 120px;
+    margin-top: 40px;
+    padding-bottom: 15px;
 `;
 
 const Header = () => {
