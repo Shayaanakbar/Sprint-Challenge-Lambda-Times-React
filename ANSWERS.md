@@ -1,6 +1,7 @@
  1.What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
  
  PropTypes are used for making sure that you are verifying what type of data you are receiving, whether that be an object, array, string etc. 
+ Also helps with debugging and helps the next user and you are able to debut it much quicker.  
  
  2. Describe a life-cycle event in React?
  
@@ -9,7 +10,7 @@
  
  3. Explain the details of a Higher Order Component?
  
- Allows us to reuse a component, HOC takes component as an argument or parameter, these are called style components 
+ Allows us to reuse a component, HOC takes component as an argument or parameter, 
  
  
  4. What are three different ways to style components in React? Explain some of the benefits of each.
