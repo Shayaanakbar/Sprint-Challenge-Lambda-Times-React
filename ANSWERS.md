@@ -6,13 +6,20 @@
  2. Describe a life-cycle event in React?
  
  A life-cycle in react is used to process data in React, as well as render it. These events are birth, growth, death
+ Mounting is giving Brith of your compoenent. Update is the growth of your component, and Unmount is the death of your component
  
  
  3. Explain the details of a Higher Order Component?
  
- Allows us to reuse a component, HOC takes component as an argument or parameter, 
+A higher-order component (HOC) is an advanced technique in React for reusing component logic. HOCs are not part of the React API, per se. They are a pattern that emerges from React’s compositional nature.
+
  
  
  4. What are three different ways to style components in React? Explain some of the benefits of each.
  
- Three different ways to style components are inline styles, cascading style sheets, and styled components. 
+In React, inline styles are not specified as a string. Instead they are specified with an object whose key is the camelCased version of the style name, and whose value is the style’s value, usually a string.
+
+A CSS Module is a CSS file in which all class names and animation names are scoped locally by default. Great article about css modules here.
+
+Styled-components is a library for React and React Native that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS
+
